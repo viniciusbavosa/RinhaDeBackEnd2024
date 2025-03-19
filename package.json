@@ -1,0 +1,16 @@
+{
+  "name": "rinhadeback2024",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "server": "node --watch server.js",
+    "test:dev": "node --watch --test ./test/E2E/api.test.js",
+    "test": "node --test ./test/E2E/api.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.5.2"
+}
